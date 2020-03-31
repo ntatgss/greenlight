@@ -36,7 +36,7 @@ en:
         enabled: Enabled
         info: Only allow authenticated users to join a room
         title: Require Authentication for Rooms
-        user-info: You must sign in to Tesse Meet to join this room
+        user-info: You must sign in to Tesse Room to join this room
       branding:
         change: Change Image
         info: Change the branding image that appears in the top left corner
@@ -82,7 +82,7 @@ en:
       shared_access:
         info: Setting to disabled will remove the button from the Room options dropdown, preventing users from sharing rooms
         title: Allow Users to Share Rooms
-      subtitle: Customize Tesse Meet
+      subtitle: Customize Tesse Room
       title: Site Settings
     flash:
       approved: User has been successfully approved.
@@ -193,10 +193,10 @@ en:
       contact_admin: If you are not an administrator, please contact one.
       continue: I'd like to stay using 1.0.
       notice: >
-        Tesse Meet encountered a database migration error.<br>
-        This may be because you haven't updated to Tesse Meet 2.0.
+        Tesse Room encountered a database migration error.<br>
+        This may be because you haven't updated to Tesse Room 2.0.
       upgrade: Show me how to upgrade to 2.0!
-      version: We've released a new version of Tesse Meet, but your database isn't compatible.
+      version: We've released a new version of Tesse Room, but your database isn't compatible.
     messages:
       blank: can't be blank
       too_short: is too short
@@ -207,7 +207,7 @@ en:
       inclusion: is not included in the list
     no_provider:
       message: The site you are trying to access is not enabled
-      help: Please contact your system administrator to setup Tesse Meet
+      help: Please contact your system administrator to setup Tesse Room
     not_found:
       message: Sorry! The page you are looking for does not exist.
       help: Is it possible its been removed?
@@ -229,13 +229,13 @@ en:
     designs: Custom Designs
     authentication: User Authentication
   footer:
-    powered_by: Powered by Tesse.
+    powered_by: Powered by Tesse.io
   forgot_password:
     subtitle: Forgot Password
     email: Email
     submit: Submit
   go_back: Go back
-  greenlight: Tesse Meet
+  greenlight: Tesse Room
   header:
     all_recordings: All Recordings
     dropdown:
@@ -259,11 +259,11 @@ en:
     search:
       start: Start searching...
   landing:
-    about: "Tesse is a simple front-end for your Tesse open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
-    welcome: Welcome to Tesse.
-    video: Watch our tutorial on using Tesse Meet
-    upgrade: Show me how to upgrade to 2.0!
-    version: We've released a new version of Tesse Meet, but your database isn't compatible.
+    about: "Tesse Room is a simple web conferencing solution. You can create your own rooms to host sessions, or join others using a short and convenient link."
+    welcome: Welcome to Tesse Room.
+    video: Watch our tutorial on using Tesse Room
+    upgrade: 
+    version: We've released a new version of Tesse Room, but your database isn't compatible.
   language_default: Default (browser language)
   ldap_error: Unable to connect to the LDAP server. Please check your LDAP configuration in the env file and ensure your server is running.
   login: Sign in
@@ -275,10 +275,10 @@ en:
         signin: To access your personal rooms, click the button below and sign in.
         signin_link: Sign In
         signup:
-          info: A new user has signed up to use Tesse Meet.
-          more-info: To allow this user to access Tesse Meet you must approve their account in organization settings.
+          info: A new user has signed up to use Tesse Room.
+          more-info: To allow this user to access Tesse Room you must approve their account in organization settings.
           admins_link: Visit the Organization Page
-          subject: New Tesse Meet User Sign Up
+          subject: New Tesse Room User Sign Up
           username: The user signed up with the name %{name} and the email %{email}.
         subject: Account Approved
         username: Your username is %{email}.
@@ -292,9 +292,9 @@ en:
         signup_info: To signup using your email, click the button below and follow the steps.
         signup_link: Sign Up
         signup:
-          info: A user that was invited has signed up to use Tesse Meet.
+          info: A user that was invited has signed up to use Tesse Room.
           admins_link: Visit the Organization Page
-          subject: New Tesse Meet User Sign Up
+          subject: New Tesse Room User Sign Up
           username: The user signed up with the name %{name} and the email %{email}.
         subject: Invitation to join Tesse
         username: Your username is %{email}.
